@@ -1,0 +1,38 @@
+
+
+.container {
+  border-radius: 15px;
+  padding:35px;
+  background-color: rgb(255, 255, 255);
+  display: flex !important;
+  flex-direction: row !important;
+  box-shadow: 10px 10px 5px #aaaaaa;;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px ;
+}
+
+
+.banner{
+  flex: 40% !important;
+  margin-right: 50px;
+  justify-content: center !important;
+  background-color: rgb(227, 227, 235);
+  border-radius: 12px;
+  padding:25px;
+}
+
+.banner p{
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+form{
+  flex: 60% !important;
+}

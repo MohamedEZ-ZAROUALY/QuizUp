@@ -1,0 +1,4 @@
+
+interface IWebSocketSubscriber {
+    update(messageObject);
+}

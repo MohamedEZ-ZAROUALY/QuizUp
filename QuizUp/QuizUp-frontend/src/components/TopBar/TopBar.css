@@ -1,0 +1,8 @@
+.topBar {
+    display: flex;
+    padding: 10px;
+}
+.searchBar {
+    margin-inline: 16px;
+    flex-grow: 1;
+}

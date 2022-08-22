@@ -1,0 +1,137 @@
+
+  .app {
+    background-color: #ffffff;
+    margin:auto;
+    width: 600px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .score-section {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  /* QUESTION/TIMER/LEFT SECTION */
+  .question-section {
+    width: 100%;
+    position: relative;
+    flex: 20%;
+    justify-content:center;
+   
+  }
+  
+  .question-count {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+  }
+  
+  .question-text {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .timer-text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 189, 67);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    justify-content:center;
+    width: 100%;
+    flex : 45%;
+    display:grid;
+    grid-template-columns: 250px 250px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    /* grid-row-gap: 30px; */
+  }
+  
+  .timer{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .dot {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      padding: 5px;
+  
+      background: #fff;
+      border: 2px solid #666;
+      color: #666;
+      text-align: center;
+  
+      font: 25px Arial, sans-serif;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252d4a;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border: 5px solid #234668;
+    cursor: pointer;
+    padding:20px;
+    justify-content:center;
+  }
+  
+  .image-container{
+   
+    flex:25%;
+    margin:25px;
+    display: flex;
+    justify-content:center;
+  
+  }
+  
+  img {
+    border-radius: 15px;
+    max-width:50%;
+    max-height:80%;
+    margin:10px;
+  }
+  .correct {
+    background-color: #2f922f;
+  }
+  
+  .incorrect {
+    background-color: #ff3333;
+  }
+  
+  button:hover {
+    background-color: #555e7d;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
+  
